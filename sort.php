@@ -20,6 +20,4 @@
     }
     return $data;
   }
-  print_r(selection_sort(array(7,5,10,1,3,2,6,8),true));
-  print_r(selection_sort(array(7,5,10,1,3,2,6,8),false));
 ?>
