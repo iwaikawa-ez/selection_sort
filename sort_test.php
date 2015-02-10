@@ -19,9 +19,11 @@ class sortTest extends PHPUnit_Framework_TestCase
     $this->assertEquals($result, $assert);
   }
 
-  public function test_swap()
+  public function test_swap2()
   {
-    $array = array(10, 20);
-    $this->assertEquals(swap($array, 0, 1), array(20, 10));
-  }
+    $arr = array(10, 20);
+    swap2($arr[0], $arr[1]);
+    $this->assertEquals($arr[0], 20);
+    $this->assertEquals($arr[1], 10);
+ }
 }
